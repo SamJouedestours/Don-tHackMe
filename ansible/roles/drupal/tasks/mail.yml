@@ -1,0 +1,4 @@
+- name: Ensure webroot exists
+  file:
+    path: /var/www/html
+    state: directory
