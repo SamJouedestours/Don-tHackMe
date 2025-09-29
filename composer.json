@@ -1,0 +1,9 @@
+{
+  "name": "dont-hack-me/intranet",
+  "description": "Intranet scaffold for Don't Hack Me (Drupal 10)",
+  "type": "project",
+  "require": {
+    "drupal/core-recommended": "^10.0",
+    "drupal/core-composer-scaffold": "^10.0"
+  }
+}

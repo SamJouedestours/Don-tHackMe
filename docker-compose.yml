@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  php:
+    build: .
+    volumes:
+      - ./web:/var/www/html
+  db:
+    image: mariadb:10.6
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: drupal
