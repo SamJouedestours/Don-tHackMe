@@ -1,0 +1,5 @@
+name: 'DHm Intranet'
+type: module
+description: 'Module intranet principal pour dont-hack-me'
+core_version_requirement: ^10
+package: Custom

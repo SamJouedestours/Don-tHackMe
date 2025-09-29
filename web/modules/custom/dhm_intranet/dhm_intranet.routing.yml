@@ -1,0 +1,7 @@
+dhm_intranet.dashboard:
+  path: '/intranet'
+  defaults:
+    _controller: '\\Drupal\\dhm_intranet\\Controller\\HomeController::dashboard'
+    _title: 'Intranet'
+  requirements:
+    _permission: 'access content'
