@@ -1,0 +1,5 @@
+name: 'DHm CSV'
+type: module
+description: 'Import / Export CSV utilities for users and documents'
+core_version_requirement: ^10
+package: Custom
